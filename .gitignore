@@ -1,0 +1,12 @@
+01_pointclouds/
+02_als_strips/
+02_intermediate/
+02_odm_strips/
+02_strip_extents/
+02_strip_pcount/
+03_extent_tiles/
+04_check/
+04_rasters/
+opalsErrors.log
+opalsLog.20200430-144655.xml
+opalsLog.xml

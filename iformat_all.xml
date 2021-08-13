@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- Exemplary ASCII format definition that imports/exports point coordinates, followed by amplitudes -->
+
+<opalsFormatDefinition>
+  <ascii>
+    <columnSeparators val="	"/>
+    <header>
+      <skipLines val="1" />
+    </header>
+    <data>        
+      <entry val="x"/>       
+      <entry val="y" />       
+      <entry val="z"/>
+      <entry val="Amplitude"/>
+      <entry val="EchoWidth"/>
+      <entry val="_EchoType" internalType="int"/>
+	  <entry val="_terrainProb" internalType="float"/>
+	  <entry val="_nZ_corr" internalType="float"/>
+	  <entry val="Classification"/>
+	  <entry val="PointSourceId"/>
+    </data>
+  </ascii>
+</opalsFormatDefinition>

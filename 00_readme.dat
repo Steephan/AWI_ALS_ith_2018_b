@@ -1,0 +1,17 @@
+###
+###  ALS processing template for OPALs
+###
+#
+# 1. copy this folder-file-system ("ALS_new_project") to your harddrive
+#    --> rename it
+# 2. copy your ALS txt-files to 01_pointclouds/
+#    --> if necessary change endings to .txt
+# 3. change opalCELL-line with correct EPSG-code and boundaries
+# 4. start OPALs
+#    --> go to this folder and execute 01_generate_fileBounds.bat
+#    ... E: [ENTER]
+#    ... 01_generate_fileBounds.bat [ENTER]
+# 5. check results in GIS 
+#
+#
+#

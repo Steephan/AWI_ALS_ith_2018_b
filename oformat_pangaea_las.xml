@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opalsFormatDefinition>
+  <description>LAS 1.4 with extra bytes</description>
+  <!-- export format with all variables to submit to pangaea -->
+  <las>
+    <versionMinor val="4"/>
+    <pointDataRecordFormat val="1"/>
+    <extraBytes>
+ 	  <entry internalName="Amplitude" lasName="Amplitude[DNum]"/>
+      <entry internalName="EchoWidth" lasName="EchoWidth[ns]"/>
+      <entry internalName="_EchoType" lasName="EchoType[DNum]"/>
+      <entry internalName="_terrainProb" lasName="TerrainProbability[DFrac]"/>
+      <entry internalName="_nZ_corr" lasName="RelativeHeight[m]"/>
+      <entry internalName="Classification" lasName="Class[DNum]"/>
+	  <entry internalName="PointSourceId" lasName="PointSourceId[DNum]"/>
+    </extraBytes>
+  </las>
+</opalsFormatDefinition>
+

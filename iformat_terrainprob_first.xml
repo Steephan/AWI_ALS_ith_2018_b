@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- Exemplary ASCII format definition that imports/exports point coordinates, followed by amplitudes -->
+
+<opalsFormatDefinition>
+  <ascii>
+    <columnSeparators val=";"/>
+    <data>        
+      <entry val="x"/>       
+      <entry val="y"/>       
+      <entry val="z"/>
+      <entry val="Amplitude"/>
+      <entry val="EchoWidth"/>
+      <entry val="_EchoType" internalType="int"/>
+	  <entry val="PointSourceId"/>
+      <entry val="_terrainProb" internalType="float"/>
+    </data>
+  </ascii>
+</opalsFormatDefinition>

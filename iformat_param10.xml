@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- Exemplary ASCII format definition that imports/exports point coordinates, followed by amplitudes -->
+
+<opalsFormatDefinition>
+  <ascii>
+    <columnSeparators val=";"/>
+  <header>
+    <skipLines val="1" />
+  </header>
+    <data>
+      <entry val="_UTC" internalType="float"/>       
+      <entry val="x"/>       
+      <entry val="y" />       
+      <entry val="z"/>
+      <entry val="Amplitude"/>
+      <entry val="EchoWidth"/>
+      <entry val="_Channel" internalType="int"/>
+      <entry val="_TargetType" internalType="int"/>
+      <entry val="EchoNumber"/>
+      <entry val="_TargetCount" internalType="int"/>
+    </data>
+  </ascii>
+</opalsFormatDefinition>
