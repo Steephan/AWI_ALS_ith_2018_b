@@ -228,5 +228,12 @@ opalsExport -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -o
 opalsExport -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_check\ITH_ALS_2018_3.laz -oformat oformat_pangaea_las.xml -limit 547800 7660000 586000 7706000
 rem opalsExport -inf 02_intermediate\ALS1_all_echotypes_SOR_terrain_classified.odm -outf 04_check\TVC_ALS_2018b_roi_trees_tvc_2.las -oformat oformat_pangaea_las.xml -limit 561144 7626892 562564 7627008
 
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_amplitude_1m_1.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute Amplitude  %COORD% %LIM1%
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_echowith_1m_1.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute EchoWidth  %COORD% %LIM1%
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_amplitude_1m_2.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute Amplitude  %COORD% %LIM1%
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_echowith_1m_2.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute EchoWidth  %COORD% %LIM1%
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_amplitude_1m_3.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute Amplitude  %COORD% %LIM1%
+opalsGrid -inf 02_intermediate\ALS_all_echotypes_SOR_terrain_classified.odm -outf 04_rasters\ALS_all_echotypes_SOR_echowith_1m_3.tif -interpolation robMovingPlanes -gridSize 1.0 -searchRad 7.5 -attribute EchoWidth  %COORD% %LIM1%
+
 
 
